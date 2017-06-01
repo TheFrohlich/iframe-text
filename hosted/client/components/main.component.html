@@ -1,0 +1,35 @@
+<style>
+    .nav {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        margin-right: 2em;
+    }
+
+    .nav>li {
+        margin: 0.25em 0;
+    }
+
+    .nav>li>a {
+        font-size: 20px;
+        color: black;
+    }
+
+    .content-wrapper {
+        display: flex;
+    }
+</style>
+<div class="main">
+    <h1>Hi From Hostetd Main Component</h1>
+    <div class="content-wrapper">
+        <ul class="nav">
+            <li><a ui-sref="hart">hart</a></li>
+            <li><a ui-sref="lungs">lungs</a></li>
+            <li><a ui-sref="skin">skin</a></li>
+        </ul>
+        <ui-view></ui-view>
+    </div>
+</div>

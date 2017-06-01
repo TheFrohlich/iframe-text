@@ -14,6 +14,15 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <h1>Hello from hosted app</h1>
+       <div ng-app="hosted-app">
+           <hosted-main-component></hosted-main-component>
+       </div>
+       <script src="../../node_modules/angular/angular.js"></script>
+       <script src="../../node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+       <script src="./hosted/client/app.js"></script>
+       <script src="./hosted/client/components/main.component.js"></script>
+       <script src="./hosted/client/components/checkups/hart-checkup.component.js"></script>
+       <script src="./hosted/client/components/checkups/lungs-checkup.component.js"></script>
+       <script src="./hosted/client/components/checkups/skin-checkup.component.js"></script>
     </body>
 </html>
