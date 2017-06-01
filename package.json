@@ -1,0 +1,23 @@
+{
+  "name": "iframe-text",
+  "version": "1.0.0",
+  "description": "test checking hosting an angular app in an i frame",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheFrohlich/iframe-text.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheFrohlich/iframe-text/issues"
+  },
+  "homepage": "https://github.com/TheFrohlich/iframe-text#readme"
+}
